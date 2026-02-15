@@ -1,6 +1,6 @@
 # AgroSense V3 - Monitoramento de Gases VOC 🌾
 
-O **AgroSense** é um sistema de monitoramento industrial desenvolvido para o controle de Compostos Orgânicos Voláteis (VOC) em silos de armazenamento. [cite_start]Este projeto utiliza o conceito de **Nariz Eletrônico (E-Nose)** para identificar padrões aromáticos e garantir a qualidade dos grãos e preservados. [cite: 339, 340]
+O **AgroSense** é um sistema de monitoramento industrial desenvolvido para o controle de Compostos Orgânicos Voláteis (VOC) em silos de armazenamento. [cite_start]Este projeto utiliza o conceito de **Nariz Eletrônico (E-Nose)** para identificar padrões aromáticos e garantir a qualidade dos grãos e preservados.
 
 O projeto foi refatorado pela **CodeCraftStudios** para demonstrar práticas modernas de desenvolvimento full-stack e arquitetura de software.
 
