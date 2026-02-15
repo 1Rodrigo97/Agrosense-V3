@@ -41,3 +41,18 @@ O sistema adota o padrão **MVC (Model-View-Controller)** para garantir escalabi
 ```bash
 git clone [https://github.com/SEU_USUARIO/agro-sense-v3.git](https://github.com/SEU_USUARIO/agro-sense-v3.git)
 cd agro-sense-v3
+
+Configurar o Backend
+cd backend
+npm install
+node server.js
+
+Executar o Simulador
+cd simulator
+npm install
+node device.js
+
+Acessar o Painel
+Basta abrir o arquivo index.html localizado na pasta /frontend em seu navegador.
+
+
