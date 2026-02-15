@@ -11,7 +11,7 @@ O projeto foi refatorado pela **CodeCraftStudios** para demonstrar práticas mod
 O sistema adota o padrão **MVC (Model-View-Controller)** para garantir escalabilidade e manutenção simplificada.
 
 ### **Backend**
-* **Ambiente:** Node.js. [cite: 340]
+* **Ambiente:** Node.js.
 * **Framework:** Express para roteamento e gerenciamento de middlewares.
 * **Comunicação:** Axios para integração e consumo de APIs.
 * **Utilitários:** * `body-parser` para análise de requisições.
