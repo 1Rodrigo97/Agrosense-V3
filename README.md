@@ -8,30 +8,30 @@ O projeto foi refatorado pela **CodeCraftStudios** para demonstrar práticas mod
 
 ## 🛠️ Tecnologias e Arquitetura
 
-[cite_start]O sistema adota o padrão **MVC (Model-View-Controller)** para garantir escalabilidade e manutenção simplificada. [cite: 339, 340]
+O sistema adota o padrão **MVC (Model-View-Controller)** para garantir escalabilidade e manutenção simplificada.
 
 ### **Backend**
-* [cite_start]**Ambiente:** Node.js. [cite: 340]
-* [cite_start]**Framework:** Express para roteamento e gerenciamento de middlewares. [cite: 378, 381]
-* [cite_start]**Comunicação:** Axios para integração e consumo de APIs. [cite: 509, 515]
-* [cite_start]**Utilitários:** * `body-parser` para análise de requisições. [cite: 344, 346]
-    * [cite_start]`iconv-lite` para tratamento de codificações de dados industriais. [cite: 401, 426]
-    * [cite_start]`cors` para gerenciamento de controles de acesso. [cite: 359]
+* **Ambiente:** Node.js. [cite: 340]
+* **Framework:** Express para roteamento e gerenciamento de middlewares.
+* **Comunicação:** Axios para integração e consumo de APIs.
+* **Utilitários:** * `body-parser` para análise de requisições.
+    * `iconv-lite` para tratamento de codificações de dados industriais.
+    * `cors` para gerenciamento de controles de acesso.
 
 ### **Frontend**
-* [cite_start]**Interface:** Painel web responsivo desenvolvido em HTML5 e JavaScript. [cite: 506]
-* [cite_start]**Integração:** Consumo em tempo real dos dados processados pelo backend. [cite: 506]
+* **Interface:** Painel web responsivo desenvolvido em HTML5 e JavaScript.
+* **Integração:** Consumo em tempo real dos dados processados pelo backend.
 
 ### **Simulador**
-* [cite_start]**Propósito:** Um módulo dedicado para simular o comportamento de sensores de hardware (`device.js`), permitindo testes de estresse e validação de dados sem a necessidade de hardware físico no ambiente de desenvolvimento. [cite: 507]
+* **Propósito:** Um módulo dedicado para simular o comportamento de sensores de hardware (`device.js`), permitindo testes de estresse e validação de dados sem a necessidade de hardware físico no ambiente de desenvolvimento.
 
 ---
 
 ## 📂 Estrutura do Repositório
 
-* [cite_start]**`/backend`**: API do Servidor Node.js e lógica de negócio. [cite: 340]
-* [cite_start]**`/frontend`**: Dashboard de visualização para o usuário. [cite: 340, 506]
-* [cite_start]**`/simulator`**: Script de simulação de sensores de gases VOC. [cite: 340, 507]
+* **`/backend`**: API do Servidor Node.js e lógica de negócio.
+* **`/frontend`**: Dashboard de visualização para o usuário.
+* **`/simulator`**: Script de simulação de sensores de gases VOC.
 
 ---
 
