@@ -1,22 +1,43 @@
-# AgroSense - Painel de Controle de Gases VOC
+# AgroSense V3 - Monitoramento de Gases VOC 🌾
 
-O **AgroSense** é uma solução de monitoramento para silos de armazenamento, focada na detecção e controle de gases VOC (Compostos Orgânicos Voláteis). O projeto foi desenvolvido pela **CodeCraftStudios**.
+O **AgroSense** é um sistema de monitoramento industrial desenvolvido para o controle de Compostos Orgânicos Voláteis (VOC) em silos de armazenamento. [cite_start]Este projeto utiliza o conceito de **Nariz Eletrônico (E-Nose)** para identificar padrões aromáticos e garantir a qualidade dos grãos e ervas armazenadas[cite: 339, 340].
 
-## 🚀 Tecnologias Utilizadas
+O projeto foi refatorado pela **CodeCraftStudios** para demonstrar práticas modernas de desenvolvimento full-stack e arquitetura de software.
 
-- [cite_start]**Backend:** Node.js com Express[cite: 377, 499].
-- [cite_start]**Frontend:** HTML/JavaScript (Painel de controle).
-- [cite_start]**Simulador:** Script Node.js para simulação de dispositivos/sensores[cite: 500].
-- [cite_start]**Comunicação:** Axios para requisições HTTP[cite: 502, 507].
+---
 
-## 📂 Estrutura do Projeto
+## 🛠️ Tecnologias e Arquitetura
 
-- [cite_start]`/backend`: API e lógica do servidor[cite: 342, 499].
-- [cite_start]`/frontend`: Interface do usuário para visualização dos dados.
-- [cite_start]`/simulator`: Ferramenta para simular o envio de dados dos sensores de gases[cite: 500].
+[cite_start]O sistema adota o padrão **MVC (Model-View-Controller)** para garantir escalabilidade e manutenção simplificada[cite: 339, 340].
 
-## 🔧 Como Rodar
+### **Backend**
+- [cite_start]**Ambiente:** Node.js.
+- [cite_start]**Framework:** Express para roteamento e gerenciamento de middlewares[cite: 37, 40].
+- [cite_start]**Comunicação:** Axios para integração e consumo de APIs[cite: 168, 234].
+- [cite_start]**Utilitários:** - `body-parser` para parsing de requisições[cite: 3, 5].
+  - [cite_start]`iconv-lite` para tratamento de encodings de dados industriais[cite: 60, 85].
+  - [cite_start]`cors` para gerenciamento de permissões de acesso[cite: 18].
 
-1. **Instale as dependências** em cada pasta (`backend` e `simulator`):
-   ```bash
-   npm install
+### **Frontend**
+- [cite_start]**Interface:** Painel web responsivo desenvolvido em HTML5 e JavaScript.
+- [cite_start]**Integração:** Consumo em tempo real dos dados processados pelo backend[cite: 261, 262].
+
+### **Simulator**
+- [cite_start]**Propósito:** Um módulo dedicado para simular o comportamento de sensores de hardware (`device.js`), permitindo testes de estresse e validação de dados sem a necessidade de hardware físico no ambiente de desenvolvimento[cite: 166, 337].
+
+---
+
+## 📂 Estrutura do Repositório
+
+* [cite_start]`/backend`: Servidor API Node.js e lógica de negócio[cite: 340].
+* [cite_start]`/frontend`: Dashboard de visualização para o usuário[cite: 340].
+* [cite_start]`/simulator`: Script de simulação de sensores de gases VOC[cite: 340].
+
+---
+
+## 🚀 Como Executar o Projeto
+
+### 1. Clonar o repositório
+```bash
+git clone [https://github.com/SEU_USUARIO/agro-sense-v3.git](https://github.com/SEU_USUARIO/agro-sense-v3.git)
+cd agro-sense-v3
