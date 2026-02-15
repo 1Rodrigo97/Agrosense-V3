@@ -1,6 +1,6 @@
 # AgroSense V3 - Monitoramento de Gases VOC 🌾
 
-[cite_start]O **AgroSense** é um sistema de monitoramento industrial desenvolvido para o controle de Compostos Orgânicos Voláteis (VOC) em silos de armazenamento[cite: 339, 340]. [cite_start]Este projeto utiliza o conceito de **Nariz Eletrônico (E-Nose)** para identificar padrões aromáticos e garantir a qualidade dos grãos e preservados[cite: 339, 340].
+O **AgroSense** é um sistema de monitoramento industrial desenvolvido para o controle de Compostos Orgânicos Voláteis (VOC) em silos de armazenamento. [cite_start]Este projeto utiliza o conceito de **Nariz Eletrônico (E-Nose)** para identificar padrões aromáticos e garantir a qualidade dos grãos e preservados[cite: 339, 340].
 
 O projeto foi refatorado pela **CodeCraftStudios** para demonstrar práticas modernas de desenvolvimento full-stack e arquitetura de software.
 
@@ -14,9 +14,9 @@ O projeto foi refatorado pela **CodeCraftStudios** para demonstrar práticas mod
 * [cite_start]**Ambiente:** Node.js[cite: 340].
 * [cite_start]**Framework:** Express para roteamento e gerenciamento de middlewares[cite: 37, 40].
 * [cite_start]**Comunicação:** Axios para integração e consumo de APIs[cite: 168, 234].
-* [cite_start]**Utilitários:** * `body-parser`: para análise de requisições[cite: 3, 5].
-    * [cite_start]`iconv-lite`: para tratamento de codificações de dados industriais[cite: 60, 85].
-    * [cite_start]`cors`: para gerenciamento de controles de acesso[cite: 18].
+* [cite_start]**Utilitários:** * `body-parser` para análise de requisições[cite: 3, 5].
+    * [cite_start]`iconv-lite` para tratamento de codificações de dados industriais[cite: 60, 85].
+    * [cite_start]`cors` para gerenciamento de controles de acesso[cite: 18].
 
 ### **Frontend**
 * **Interface:** Painel web responsivo desenvolvido em HTML5 e JavaScript.
